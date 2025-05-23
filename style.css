@@ -41,6 +41,13 @@ p {
     margin-right: 15px;
 }
 
+.about-image {
+    width: 240px;
+    height: 135px;
+    object-fit: fill;
+    margin-bottom: 20px;
+}
+
 .header {
     font-style: italic;
     font-family: Garamond;
