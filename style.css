@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    margin: 40px;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Garamond;
+    font-style: italic;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF0D86;
+}
+
+p {
+    text-wrap: pretty;
+    max-width: 1200px;
+}
+
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px dotted;
+    padding: 20px 0;
+  }
+  
+.post-image {
+    width: 240px;
+    height: 135px;
+    object-fit: fill;
+    margin-right: 15px;
+}
+
+.header {
+    font-style: italic;
+    font-family: Garamond;
+    font-size: 18px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    margin-left: 15px;
+}
+
+
