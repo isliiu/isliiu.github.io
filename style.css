@@ -25,7 +25,7 @@ a:hover {
 
 p {
     text-wrap: pretty;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .post {
@@ -58,8 +58,10 @@ p {
     align-items: center;
 }
 
-.header a{
+.menu a {
     margin-left: 15px;
 }
 
-
+#frog-speech {
+    font-family: Luminari;
+}
