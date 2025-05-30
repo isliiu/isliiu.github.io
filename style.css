@@ -24,7 +24,6 @@ a:hover {
 }
 
 p {
-    text-wrap: pretty;
     max-width: 1000px;
 }
 
@@ -38,14 +37,14 @@ p {
 .post-image {
     width: 240px;
     height: 135px;
-    object-fit: fill;
+    object-fit: cover;
     margin-right: 15px;
 }
 
 .about-image {
     width: 240px;
     height: 135px;
-    object-fit: fill;
+    object-fit: cover;
     margin-bottom: 20px;
 }
 
@@ -54,10 +53,25 @@ p {
     font-family: Garamond;
     font-size: 18px;  
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
 }
 
 .menu a {
     margin-left: 15px;
+}
+
+.image-row {
+    display: flex;
+    gap: 40px;
+    justify-content:left;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.image-row img {
+    width: 240px;
+    height: 320px;
+    object-fit: cover;
+    flex-shrink: 0;
 }
